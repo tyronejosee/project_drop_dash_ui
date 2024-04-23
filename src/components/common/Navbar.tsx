@@ -12,7 +12,7 @@ export function Navbar() {
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <img
-            src="/logo.svg"
+            src="/logo_dark.svg"
             className="h-8 aspect-square"
             alt="FandomHub Logo"
           />
