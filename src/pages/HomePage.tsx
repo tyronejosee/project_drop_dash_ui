@@ -5,7 +5,7 @@ export function HomePage() {
   return (
     <div className="p-4">
       <section>
-        <figure className="w-full h-96 bg-gray-300 rounded-xl"></figure>
+        <figure className="w-full h-96 dark:bg-neutral-800 rounded-xl"></figure>
       </section>
       <section className="space-y-4">
         <h2 className="text-xl font-bold">Categorías</h2>
@@ -52,8 +52,8 @@ export function HomePage() {
       </section>
 
       <section className="grid grid-cols-2 gap-4">
-        <figure className="w-full h-96 bg-gray-300 rounded-xl"></figure>
-        <div className="w-full h-96 bg-gray-300 rounded-xl"></div>
+        <figure className="w-full h-96 dark:bg-neutral-800 rounded-xl"></figure>
+        <div className="w-full h-96 dark:bg-neutral-800 rounded-xl"></div>
       </section>
     </div>
   );

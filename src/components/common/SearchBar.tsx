@@ -6,7 +6,7 @@ export function SearchBar() {
           <input
             type="search"
             id="search-navbar"
-            className="bg-neutral-100 rounded-md w-full h-8 px-4 focus:outline-none focus:ring focus:ring-primary placeholder-neutral-400 text-sm dark:placeholder-neutral-600 text-center focus:text-left focus:pl-12 border border-neutral-200"
+            className="dark:bg-neutral-900 rounded-md w-full h-8 px-4 focus:outline-none focus:ring focus:ring-primary placeholder-neutral-400 text-sm dark:placeholder-neutral-600 text-center focus:text-left focus:pl-12 border dark:border-neutral-800"
             placeholder="Busca comidas, restaurants..."
             name="search"
             // defaultValue={new URLSearchParams(window.location.search).get("search")}

@@ -18,11 +18,12 @@ export function Button({
 
   switch (variant) {
     case "primary":
-      buttonClass += " bg-neutral-800 hover:bg-neutral-950 text-neutral-200 ";
+      buttonClass +=
+        " dark:bg-neutral-50 dark:hover:bg-neutral-200 dark:text-neutral-800";
       break;
     case "secondary":
       buttonClass +=
-        " bg-neutral-50 hover:bg-neutral-200 text-neutral-800 border border-neutral-200";
+        " border dark:border-neutral-800 dark:hover:bg-neutral-800 dark:text-neutral-200";
       break;
     default:
       break;

@@ -5,16 +5,16 @@ import { Button } from "./Button";
 
 export function Navbar() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-neutral-200 bg-white/60 backdrop-blur-md shadow-md">
+    <header className="sticky top-0 z-50 w-full border-b dark:border-neutral-800 dark:bg-neutral-950/90 backdrop-blur-md shadow-md">
       <nav className="max-w-screen-2xl mx-auto px-4 sm:px-6 md:px-8 py-2 flex flex-wrap items-center justify-between">
         <Link
           to="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <img
-            src="/logo_dark.svg"
+            src="/logo_color.svg"
             className="h-8 aspect-square"
-            alt="FandomHub Logo"
+            alt="DropDash Logo"
           />
           <span className="self-center text-xl font-bold whitespace-nowrap">
             Drop Dash

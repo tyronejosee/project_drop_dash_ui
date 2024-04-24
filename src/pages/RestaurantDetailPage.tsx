@@ -4,11 +4,11 @@ export function RestaurantDetailPage() {
   return (
     <>
       <div className="flex">
-        <aside className="h-screen w-72 border-r border-neutral-300 space-y-4 p-4">
-          <figure className="w-full h-32 bg-gray-300 rounded-xl"></figure>
+        <aside className="h-screen w-72 border-r dark:border-neutral-800 space-y-4 p-4">
+          <figure className="w-full h-32 bg-neutral-800 rounded-xl"></figure>
 
           <div className="relative">
-            <figure className="rounded-full h-16 w-16 bg-white -top-14 left-2 absolute border border-gray-500"></figure>
+            <figure className="rounded-full h-16 w-16 dark:bg-neutral-700 -top-14 left-2 absolute border dark:border-neutral-800"></figure>
             <div className="space-y-1 pt-8">
               <h2 className="py-2 text-lg font-medium">Chilitalys Pizzas</h2>
               <span className="block text-xs">
@@ -17,7 +17,7 @@ export function RestaurantDetailPage() {
               <span className="block text-xs">Pizzas - Chilitalys Pizzas</span>
             </div>
           </div>
-          <div className="border border-gray-300 rounded-lg p-2">
+          <div className="border dark:border-neutral-800 rounded-lg p-2">
             <p className="flex justify-between">
               <span>Delivery</span>
               <span className="font-medium">44 min</span>
@@ -44,7 +44,7 @@ export function RestaurantDetailPage() {
         <section className="p-4 w-full">
           <h3>ssssssssssssss</h3>
           <section className="grid grid-cols-3 gap-4 h-36">
-            <article className="border border-gray-300 w-full rounded-lg flex overflow-hidden">
+            <article className="border dark:border-neutral-800 w-full rounded-lg flex overflow-hidden">
               <div className="p-2 w-2/3 space-y-2">
                 <span className="text-md font-medium line-clamp-1">
                   Nuevo Combo Big Chicken Mozzarella
@@ -53,7 +53,7 @@ export function RestaurantDetailPage() {
                   1 Sándwich big mozzarella,1 papa mediana, 1 bebida en lata
                 </span>
               </div>
-              <figure className="w-1/3 h-full bg-gray-300"></figure>
+              <figure className="w-1/3 h-full dark:bg-neutral-800"></figure>
             </article>
           </section>
         </section>
