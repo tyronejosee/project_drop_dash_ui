@@ -1,3 +1,4 @@
+import { Footer } from "../components/common/Footer";
 import { RestaurantCard } from "../components/common/RestaurantCard";
 import { RestaurantIcon } from "../components/common/RestaurantIcon";
 
@@ -55,6 +56,7 @@ export function HomePage() {
         <figure className="w-full h-96 dark:bg-neutral-800 rounded-xl"></figure>
         <div className="w-full h-96 dark:bg-neutral-800 rounded-xl"></div>
       </section>
+      <Footer />
     </div>
   );
 }
