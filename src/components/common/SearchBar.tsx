@@ -1,6 +1,6 @@
 export function SearchBar() {
   return (
-    <div className="order-3 sm:order-2 w-full lg:max-w-lg sm:w-full sm:mx-0">
+    <search className="order-3 sm:order-2 w-full lg:max-w-lg sm:w-full sm:mx-0">
       <div className="relative">
         <form method="GET" action="#">
           <input
@@ -19,6 +19,6 @@ export function SearchBar() {
           </div>
         </form>
       </div>
-    </div>
+    </search>
   );
 }
